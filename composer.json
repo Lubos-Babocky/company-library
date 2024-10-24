@@ -1,0 +1,21 @@
+{
+    "name": "lb/company-library",
+    "description": "Experimental library for retrieving company data",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lb\\CompanyLibrary\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ľuboš Babocký",
+            "email": "babocky@gmail.com"
+        }
+    ]
+}
